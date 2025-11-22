@@ -15,18 +15,25 @@ This repository will contain:
 
 ## 📂 Structure
 
+```
 100-days-of-react/
 │
 ├── days/
 │
 └── projects/
+```
 
 ---
 
-<!-- ## 📅 Progress
-- Day 01 – Not started -->
+## 📅 Progress
 
-<!-- ### Week 1 – Total time: 0h 00m -->
+My daily learning journey for the next 100 days:
+
+- [x] Day 01 – React Intro
+
+### Week 1 – Total time: 1h 00m
+
+- Day 01: 1h 00m
 
 <!-- ## 🚀 Portfolio Projects
 Coming soon -->
