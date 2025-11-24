@@ -6,7 +6,8 @@ import Skills from "../components/List";
 import AddSkill from "../components/AddSkill";
 import UserCard from "../components/UserCard";
 import FilteredList from "../components/FilteredList";
-import StudyPlanner from "../components/StudyPlanner";
+import BatchDemo from "../components/BatchDemo";
+import SignUpForm from "../components/SignUpForm";
 
 export default function Home() {
   return (
@@ -35,7 +36,9 @@ export default function Home() {
 
       <FilteredList />
 
-      <StudyPlanner />
+      <BatchDemo />
+
+      <SignUpForm />
     </>
   );
 }
