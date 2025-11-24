@@ -1,13 +1,13 @@
-import Greeting from "../components/Greeting";
-import Card from "../components/Card";
-import Counter from "../components/Counter";
-import InputPractise from "../components/InputPractise";
+import Greeting from "../ui/Greeting";
+import Card from "../ui/Card";
+import Counter from "../demos/Counter";
+import InputPractise from "../demos/InputPractise";
 import Skills from "../components/List";
-import AddSkill from "../components/AddSkill";
-import UserCard from "../components/UserCard";
-import FilteredList from "../components/FilteredList";
-import BatchDemo from "../components/BatchDemo";
-import SignUpForm from "../components/SignUpForm";
+import AddSkill from "../demos/AddSkill";
+import UserCard from "../demos/UserCard";
+import FilteredList from "../demos/FilteredList";
+import BatchDemo from "../demos/BatchDemo";
+import SignUpForm from "../auth/SignUpForm";
 
 export default function Home() {
   return (

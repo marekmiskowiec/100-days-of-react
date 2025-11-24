@@ -1,7 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import TodoApp from "./pages/Todoapp.jsx";
-import TemperatureConvert from "./components/TemperatureConvert.jsx";
+import TemperatureConvert from "./temperature/TemperatureConvert.jsx";
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import TemperatureConvrt from "../components/TemperatureConvert";
+import TemperatureConvrt from "../temperature/TemperatureConvert";
 
 export default function TodoApp() {
   return (
