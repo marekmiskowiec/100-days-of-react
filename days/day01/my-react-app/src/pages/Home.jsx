@@ -8,11 +8,14 @@ import UserCard from "../demos/UserCard";
 import FilteredList from "../demos/FilteredList";
 import BatchDemo from "../demos/BatchDemo";
 import SignUpForm from "../auth/SignUpForm";
+import RenderDemo from "../demos/RenderDemo";
+import ReRenderOptimizer from "../demos/ReRenderOptimizer";
+import CarFilter from "../features/car-filter/CarFilter";
 
 export default function Home() {
   return (
     <>
-      <Greeting name="Marek" />
+      {/* <Greeting name="Marek" />
       <Greeting name="Alex" />
       <Greeting name="Jonas" />
 
@@ -38,7 +41,13 @@ export default function Home() {
 
       <BatchDemo />
 
-      <SignUpForm />
+      <SignUpForm /> */}
+
+      {/* <RenderDemo /> */}
+
+      {/* <ReRenderOptimizer /> */}
+
+      <CarFilter />
     </>
   );
 }
