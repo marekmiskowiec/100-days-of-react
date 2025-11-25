@@ -1,4 +1,4 @@
-export default function Card({ title, description }) {
+export default function Card({ children }) {
   return (
     <div
       style={{
@@ -8,8 +8,7 @@ export default function Card({ title, description }) {
         marginBottom: "0.4rem",
       }}
     >
-      <h2>{title}</h2>
-      <p>{description}</p>
+      {children}
     </div>
   );
 }

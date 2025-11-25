@@ -11,6 +11,7 @@ import SignUpForm from "../auth/SignUpForm";
 import RenderDemo from "../demos/RenderDemo";
 import ReRenderOptimizer from "../demos/ReRenderOptimizer";
 import CarFilter from "../features/car-filter/CarFilter";
+import PriceFilter from "../features/price-filter/PriceFilter";
 
 export default function Home() {
   return (
@@ -42,12 +43,27 @@ export default function Home() {
       <BatchDemo />
 
       <SignUpForm /> */}
-
       {/* <RenderDemo /> */}
-
       {/* <ReRenderOptimizer /> */}
+      {/* <CarFilter /> */}
+      <PriceFilter />
 
-      <CarFilter />
+      <Card>
+        <h2>Hello Marek 👋</h2>
+        <p>This is a reusable card component.</p>
+      </Card>
+      <Card>
+        <h3>Another Card</h3>
+        <button>Click me</button>
+      </Card>
+      <Card>
+        <p>This one contains:</p>
+        <ul>
+          <li>List</li>
+          <li>Of</li>
+          <li>Items</li>
+        </ul>
+      </Card>
     </>
   );
 }
