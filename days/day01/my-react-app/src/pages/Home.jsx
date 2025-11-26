@@ -46,7 +46,7 @@ export default function Home() {
       {/* <RenderDemo /> */}
       {/* <ReRenderOptimizer /> */}
       {/* <CarFilter /> */}
-      <PriceFilter />
+      {/* <PriceFilter />
 
       <Card>
         <h2>Hello Marek 👋</h2>
@@ -63,7 +63,7 @@ export default function Home() {
           <li>Of</li>
           <li>Items</li>
         </ul>
-      </Card>
+      </Card> */}
     </>
   );
 }
