@@ -47,7 +47,7 @@ export default function Home() {
       {/* <ReRenderOptimizer /> */}
       {/* <CarFilter /> */}
       {/* <PriceFilter />
-
+       */}
       <Card>
         <h2>Hello Marek 👋</h2>
         <p>This is a reusable card component.</p>
@@ -63,7 +63,7 @@ export default function Home() {
           <li>Of</li>
           <li>Items</li>
         </ul>
-      </Card> */}
+      </Card>
     </>
   );
 }
