@@ -4,6 +4,7 @@ import TodoApp from "./pages/Todoapp.jsx";
 import TemperatureConvert from "./temperature/TemperatureConvert.jsx";
 import ProfileForm from "./features/forms/ProfileForm.jsx";
 import JavaScriptFunctions from "./pages/JavaScriptFunctions.jsx";
+import Course from "./pages/Course.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Link to="/temperatureconvert">Temperature Convert</Link> |{" "}
         <Link to="/profile">Profile</Link> |{" "}
         <Link to="/js">JavaScript Functions</Link> |{" "}
+        <Link to="/course">Jonas React Course</Link> |{" "}
       </nav>
 
       {/* Routes */}
@@ -23,6 +25,7 @@ function App() {
         <Route path="/temperatureconvert" element={<TemperatureConvert />} />
         <Route path="/profile" element={<ProfileForm />} />
         <Route path="/js" element={<JavaScriptFunctions />} />
+        <Route path="/course" element={<Course />} />
       </Routes>
     </>
   );
